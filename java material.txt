@@ -1,0 +1,156 @@
+java : 
+ 	 java is a prog lang.
+
+	
+feature :
+
+	- secure 
+	- portable	
+		- jdk ( kit ) ; software development kit used to develop java applications 
+			- jre ( run run time environment) ; it set up a environment to run the java programs 
+			- jvm (virtual machine) : it is the responsble to execute the java program ( ide )  
+				available in all online devices 
+			- jit (Just in time ) - responsible to convert into binary format ( computer lang)
+	-platform indipendent ( windows , macos ) 
+	-object oriented 
+
+
+java jdk :: latest versions are not stable.
+
+jdk 8 
+jdk 17
+jdk 11
+
+ java Structure : 
+
+packages ; 
+import statements ; 
+class Class_Name {
+
+		main(); //// Execution starts from main only 
+	methods ();
+	.
+	
+	.
+	
+	.
+}
+}
+
+Data : information or value 
+ 
+Data type : what type of data it is ?
+
+			     Datatypes in java 
+      
+				'
+		1) primitive Datatyps        2) Non primitive Datatypes 
+
+1) Primitive Data types : 
+
+byte 
+short 
+int 
+long
+float 
+double 
+char
+Boolean
+	
+2) Non primintive Datatype 
+
+Strings 
+arrays 
+stack 
+map 
+list 
+
+
+
+Tokens : 
+	 it is a smallest unit in a java programs 
+
+
+Types of Tokens : 
+ 
+1) identifiers: ( name given to a program ) // class name 
+
+	- starts with alphabets (A)
+	- can't start with numbers (1,2,3)
+	- special symbols allowed ( $ and _(underscore))
+	- space not allowed 
+
+
+2) keywords : Keywords are pre- defined words( int, char, float ,.....)
+
+	- can't used as identifiers 
+	- 50 key words 
+
+
+3) literals : literals are the values which are used in java programming language
+	
+	- Number Literals 
+	- Character Literals 
+ 	- String Literals
+	- Boolean Literals 
+
+
+4) Operators : 
+	
+	- it is a symbol which are used to perform operation on data 
+	 a + b
+
+
+5) separators : It is used to separate the code.
+
+	- {} [] () ; ,
+
+
+6) comments : Additional information ( optional ) 
+
+	- single line comment          //
+	- multiple lines comments      /* ....statements........*/
+
+
+
+java operators : 
+
+
+Scanner : it is used to take the input from the console.
+
+
+1) Arithmetic Operators (+ , -, *, / , %)
+	- (a+b)
+	- (a-b) 
+	- (a*b) 
+	- (a/b)
+	- (a%b)
+
+
+
+
+
+
+
+
+
+
+
+2) Relational Operators ( < , <=, >, >= , ==, !=) 
+3) Logical Operators ( &&, || , !)
+4) Bitwise Operators ( & , | , !, <<, >> ) 
+5) Assignment Operators (=)
+6) unary Operators ( ++ , -- )
+7) ternary operators (?, :)
+
+	
+
+
+
+
+
+
+
+
+ 
+
