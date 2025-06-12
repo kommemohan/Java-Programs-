@@ -119,6 +119,18 @@ java operators :
 Scanner : it is used to take the input from the console.
 
 
+variable : 
+	
+	- it is used to store the value or information 
+
+Rules to declare a variable : 
+	
+	- Must start with (A -Z , a-z , $ , _ )
+	- can't start numbers                   exception :     int    Sony_age26 = 26;
+	- Space is not allowed 
+	 
+
+
 1) Arithmetic Operators (+ , -, *, / , %)
 	- (a+b)
 	- (a-b) 
@@ -137,8 +149,34 @@ Scanner : it is used to take the input from the console.
 
 
 2) Relational Operators ( < , <=, >, >= , ==, !=) 
-3) Logical Operators ( &&, || , !)
-4) Bitwise Operators ( & , | , !, <<, >> ) 
+	
+	- Relationship operators are used to check the relational between the oparands or variables 
+	- it always  returns Boolean values ( True / False ) 
+Ex: 
+	a>b
+	a<b
+	a<=b
+	a>=b
+	a==b
+	a!=b
+
+
+
+3) Logical Operators ( &&, || , !) 
+
+
+	-it is used btw the conditions 
+	
+	- it return true or false
+	
+
+ 
+
+
+4) Bitwise Operators ( & , | , !, <<, >> )  ( bits  --------> 0,1 ) 
+
+	 - it is used to perform at bit level operation
+	
 5) Assignment Operators (=)
 6) unary Operators ( ++ , -- )
 7) ternary operators (?, :)
