@@ -123,11 +123,103 @@ variable :
 	
 	- it is used to store the value or information 
 
+
 Rules to declare a variable : 
 	
 	- Must start with (A -Z , a-z , $ , _ )
-	- can't start numbers                   exception :     int    Sony_age26 = 26;
+	- can't start numbers                    exception :     int    Sony_age26 = 26;
 	- Space is not allowed 
+
+
+types of Variable ; 
+
+	1) Local Variable
+	2) Static Variable 
+	3) Non - static Variable 
+
+
+
+
+
+1) Local Variable ; 
+
+	- it is declared within the method only 
+
+
+
+add()
+	{
+	int a= 10 ;
+	int b= 20 ;
+	int add = a+b;
+	print(add)
+
+	}
+
+	a= a+15 ; // Error
+
+
+
+	- scope of the local variable is inside the method only 
+	- we can't access the local variable outside the method 
+
+
+
+2) Static Variable : 
+	
+	- when we are creating a static variable we must use keyword static .
+
+	- it is declare within the class and outside the method.
+
+	- whenever we are accessing static variable within the project we must import the class.
+
+
+	- we can access those variables in 
+
+		- inside the class
+			- variable_name 
+
+		- inside the package ( all classes in a package ) 
+
+			- Class.variablename			
+
+
+
+
+		- inside the project ( all packages ) 
+			
+			- make sure that the static variable is Public
+
+			- import package and class 
+
+			- Class. variable 
+
+
+
+3) Non-Static Variable / instance  : 
+
+	- these variables are declare within the class and outside the method without using static keyword.
+
+	- These variables load when we create a object .
+	
+	- these variables can access anywhere by using object.
+
+
+creation of object : 
+	
+	class name  object name = new class name();
+	
+	
+
+
+Access: 
+	- inside class
+		
+		- 
+		
+
+
+
 	 
 
 
