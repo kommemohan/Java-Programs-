@@ -22,6 +22,49 @@ public class RelationalOperators {
     private static void add(int a, int b) {
         int sum = a+b; // sum = 60
         System.out.println(sum);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        /*
+        d
+        d
+        d
+        d
+        d
+        d
+        d
+        d
+        d
+        d
+        d
+        d
+        d
+        d
+        d
+        d
+        dd
+        d
+        d
+        d
+        */
+        
     }
 }
 
