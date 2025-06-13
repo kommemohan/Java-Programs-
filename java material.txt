@@ -215,7 +215,17 @@ creation of object :
 Access: 
 	- inside class
 		
-		- 
+		- object .variable name
+
+	- inside package (all classes) 
+		
+		-  object.variable name 
+
+	- inside the project 
+		
+		- must import the class 
+
+		- object.varialbe name 
 		
 
 
@@ -268,9 +278,48 @@ Ex:
 4) Bitwise Operators ( & , | , !, <<, >> )  ( bits  --------> 0,1 ) 
 
 	 - it is used to perform at bit level operation
+
+	- Security purpose. 
 	
+
+
 5) Assignment Operators (=)
-6) unary Operators ( ++ , -- )
+
+	int  a = 10 ;   //  = is a assignment operator
+		
+
+
+6) unary Operators ( ++ , -- ) : 
+
+	- it is peroformed on one variable only
+
+1)Increment (++)    adds 1      ex :  a++    ======  a+1
+
+
+	Two Type: 
+
+	 1) pre- Increment : 
+		   ++a;
+		  adds one before using the variable 
+
+	 2) post Increment : 
+		    a++;
+		   First use the value, then adds one 
+
+2) Decrement (--)   remove 1 	  ex :  a--    ======  a-1
+
+	Two types : 
+	1) pre - Decrement : 
+		--a; 
+		removes one before using the variable 
+	2) post - Decrement : 
+		a--;
+		first use the value and then removes one 
+
+
+ 
+
+
 7) ternary operators (?, :)
 
 	
