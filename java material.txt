@@ -221,9 +221,10 @@ Access:
 		
 		-  object.variable name 
 
-	- inside the project 
+	- outside the project 
 		
 		- must import the class 
+		
 
 		- object.varialbe name 
 		
@@ -285,13 +286,16 @@ Ex:
 
 5) Assignment Operators (=)
 
+	
+	- It is used to Assign a value to a variable.
+
 	int  a = 10 ;   //  = is a assignment operator
 		
 
 
 6) unary Operators ( ++ , -- ) : 
 
-	- it is peroformed on one variable only
+	- it is performed on one variable only
 
 1)Increment (++)    adds 1      ex :  a++    ======  a+1
 
@@ -332,4 +336,3 @@ Ex:
 
 
  
-
